@@ -1,4 +1,4 @@
-
+<html>
 <head>
 <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
@@ -106,21 +106,21 @@ Watch on your TV
 
 <table class="table">
 <thead>
+	<tr>
+	<th> </th>
+	<th>Basic</th>
+	<th>Standard</th>
+	<th>Premium</th>
+	</tr>
+	</thead>
+		<tbody>
+				<tr>
+	<td>Monthly price after free month ends on 6/19/19</td>
+		<td>$8.99</td>
+		<td>$12.99</td>
+		<td>$15.99</td>
+		</tr>
 		<tr>
-			<th></th>
-			<th>Basic</th>
-		<th>Standard</th>
-				<th>Premium</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-			<td>Monthly price after free month ends on 6/19/19</td>
-				<td>$8.99</td>
-					<td>$12.99</td>
-				<td>$15.99</td>
-				</tr>
-				<tr>
 		<td>HD Available</td>
 					<td><i class="fas fa-times"></i></td>
 				<td><i class="fas fa-check"></i></td>
@@ -198,4 +198,5 @@ Watch on your TV
 				</ul>
 			</div>
 
-		</footer>
+</footer>
+</html>
