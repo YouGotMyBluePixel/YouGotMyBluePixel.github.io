@@ -36,7 +36,7 @@
 					<p class="hide-sm">Watch anywhere</p>
 				</div>
 				<div id="tab-3" class="tab-item">
-					<i class="fas fa-tags fa-3x" aria-hidden="true">
+					<i class="fas fa-tablet-alt fa-3x" aria-hidden="true">
                     ::before </i>
 					<p class="hide-sm">Pick your price</p>
 				</div>
