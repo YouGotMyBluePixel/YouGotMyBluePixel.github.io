@@ -9,7 +9,7 @@
 <title> Netflix - Watch TV Shows Online, Watch Movies Online </title>
 </head>
 <body>
-    <header class="showcase">
+<header class="showcase">
 			<div class="showcase-top">
 				<img src="https://i.ibb.co/r5krrdz/logo.png" alt="" />
 				<a href="#" class="btn btn-rounded">Sign In</a>
@@ -39,8 +39,8 @@
 			</div>
 		</section>
 
-<section class="tab-content">
-<div class="container">
+		<section class="tab-content">
+			<div class="container">
 				<!-- Tab Content 1 -->
 				<div id="tab-1-content" class="tab-content-item show">
 					<div class="tab-1-content-inner">
@@ -54,7 +54,8 @@
 						<img src="https://i.ibb.co/J2xDJV7/tab-content-1.png" alt="" />
 					</div>
 				</div>
-	<!-- Tab Content 2 -->
+
+				<!-- Tab Content 2 -->
 				<div id="tab-2-content" class="tab-content-item">
 					<div class="tab-2-content-top">
 						<p class="text-lg">
@@ -94,7 +95,8 @@
 						</div>
 					</div>
 				</div>
-	<!-- Tab Content 3 -->
+
+				<!-- Tab Content 3 -->
 				<div id="tab-3-content" class="tab-content-item">
 					<div class="text-center">
 						<p class="text-lg">
@@ -103,7 +105,7 @@
 						<a href="#" class="btn btn-lg">Watch Free For 30 Days</a>
 					</div>
 
-<table class="table">
+					<table class="table">
 						<thead>
 							<tr>
 								<th></th>
@@ -167,7 +169,7 @@
 			</div>
 		</section>
 
-<footer class="footer">
+		<footer class="footer">
 			<p>Questions? Call 1-866-579-7172</p>
 			<div class="footer-cols">
 				<ul>
@@ -197,4 +199,4 @@
 				</ul>
 			</div>
 
-</footer>
+		</footer>
