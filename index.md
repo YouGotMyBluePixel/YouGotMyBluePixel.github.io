@@ -1,17 +1,24 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang ="en>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>Netflix - Watch TV Shows Online, Watch Movies Online</title>
+</head>
+<body>
+    <header class="showcase">
+        <div class="showcase-top">
+        <img src ="img/logo.png" alt="Netflix">
+        <a href="#" class="btn btn-rounded"><a>
+</div>
+    <div class ="showcase-content">
+    <h1>See what's next </h1>
+</div>
 
-You can use the [editor on GitHub](https://github.com/YouGotMyBluePixel/YouGotMyBluePixel.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+</header>
+</body>
+</html>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
