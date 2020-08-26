@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- CSS only -->
 
-    <title>Netflix - Watch TV Shows Online, Watch Movies Online</title>
+<title> Netflix - Watch TV Shows Online, Watch Movies Online </title>
 </head>
 <body>
     <header class="showcase">
@@ -39,8 +39,8 @@
 			</div>
 		</section>
 
-		<section class="tab-content">
-			<div class="container">
+<section class="tab-content">
+<div class="container">
 				<!-- Tab Content 1 -->
 				<div id="tab-1-content" class="tab-content-item show">
 					<div class="tab-1-content-inner">
