@@ -27,15 +27,17 @@
 		<section class="tabs">
 			<div class="container">
 				<div id="tab-1" class="tab-item tab-border">
-					<i class="fas fa-door-open fa-3x"></i>
+					<i class="fas fa-door-open fa-3x" aria-hidden="true"> ::before
+                    </i>
 					<p class="hide-sm">Cancel at any time</p>
 				</div>
 				<div id="tab-2" class="tab-item">
-					<i class="fas fa-tablet-alt fa-3x"></i>
+					<i class="fas fa-tablet-alt fa-3x" aria-hidden="true"> ::before</i>
 					<p class="hide-sm">Watch anywhere</p>
 				</div>
 				<div id="tab-3" class="tab-item">
-					<i class="fas fa-tags fa-3x"></i>
+					<i class="fas fa-tags fa-3x" aria-hidden="true">
+                    ::before </i>
 					<p class="hide-sm">Pick your price</p>
 				</div>
 			</div>
@@ -53,7 +55,7 @@
 	</p>
 	<a href="#" class="btn btn-lg">Watch Free For 30 Days</a>
 	</div>
-<img src="https://i.ibb.co/J2xDJV7/tab-content-1.png" alt="" />
+<img src="https://i.ibb.co/J2xDJV7/tab-content-1.png" alt="Cancel" />
 	</div>
 	</div>
 
@@ -68,10 +70,8 @@ Watch TV shows and movies anytime, anywhere — personalized for
 	</div>
 	<div class="tab-2-content-bottom">
 		<div>
-		<img src="https://i.ibb.co/DpdN7Gn/tab-content-2-1.png" alt="" />
-<p class="text-md">
-Watch on your TV
-			</p>
+		<img src="https://i.ibb.co/DpdN7Gn/tab-content-2-1.png" alt="Netflix-Tv" />
+<p class="text-md"> Watch on your TV </p>
 		<p class="text-dark">
 	Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
 	players and more.
