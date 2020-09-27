@@ -93,7 +93,7 @@ section {
 }
 
 .nav__list {
-  list-style: circle;
+  list-style: none;
   display: flex;
   height: 100%;
   flex-direction: column;
