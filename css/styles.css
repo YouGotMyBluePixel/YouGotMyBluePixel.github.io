@@ -60,18 +60,15 @@ section {
 
 .about-me__img {
   
-  
-    margin-left: 10px;
-    margin-right: auto;
-    height: auto;
-    padding: 0.99em 1em;
-   grid-area: img;
-  z-index: 2;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  padding: 0.99em 1em;
   width: 380px;
-  max-width:100%;
+  
   float: right;
   margin-right: 89px;
-  vertical-align:top;
   box-shadow: var(--bs);
   
   
@@ -499,12 +496,11 @@ header {
   
 
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 1px;
   max-height: fit-content;
   left: -1em;
-  width: calc(100% + 2em);
   padding-left: 1em;
-  padding-right: calc(200px + 4em);
+  padding-right: 5em;
   grid-column: 1 / -1;
     grid-row: 2;
     position: relative
