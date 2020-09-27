@@ -1,6 +1,21 @@
 
 /*General*/
 
+/* Float to the right on screens that are equal to or less than 768px wide */
+@media (max-width: 768px) {
+  .float-right-sm {
+    float: right;
+  }
+}
+
+/* Float to the right on screens that are equal to or greater than 769px wide */
+@media (min-width: 769px) {
+  .float-right-lg {
+    float: right;
+  }
+}
+
+
 li{
   color: #fff;
   
@@ -485,7 +500,7 @@ header {
 
   max-width: 1000px;
   margin: 0 auto;
-  height: 400px;
+  max-height: fit-content;
   left: -1em;
   width: calc(100% + 2em);
   padding-left: 1em;
