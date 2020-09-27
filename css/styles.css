@@ -42,8 +42,9 @@ section {
 }
 
 .btn {
+  
   display: inline-block;
-  padding: 0.5em 1.5em;
+  padding: 0.1em 0.9em;
   background: var(--clr-accent);
   color: var(--clr-dark);
   text-decoration: none;
@@ -53,6 +54,9 @@ section {
   letter-spacing: 2px;
   font-weight: var(--fw-bold);
   transition: transform 200ms ease-in-out;
+  max-height: fit-content;
+  margin: 0;
+  
 }
 
 .btn:hover {
@@ -222,11 +226,13 @@ img {
 
 .services {
   margin-bottom: 4em;
+  max-height: fit-content;
 }
 
 .service {
   max-width: 500px;
   margin: 0 auto;
+  max-height: fit-content;
 }
 
 @media (min-width: 800px) {
@@ -235,10 +241,12 @@ img {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    max-height: fit-content;
   }
 
   .service + .service {
     margin-left: 2em;
+    max-height: fit-content;
   }
 }
 
