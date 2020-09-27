@@ -1,6 +1,7 @@
 
 /*General*/
 
+
 /* Float to the right on screens that are equal to or less than 768px wide */
 @media (max-width: 768px) {
   .float-right-sm {
@@ -56,38 +57,10 @@ section {
 
 .btn:hover {
   transform: scale(1.1);
-}
-
-.about-me__img {
-  
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: auto;
-  padding: 0.99em 1em;
-  width: 380px;
-  
-  float: right;
-  margin-right: 89px;
-  box-shadow: var(--bs);
-  
   
 }
 
-  
-.titlesmh
-{
-  
-  padding: 0.81em 1em;
-  font-family: var(--ff-secondary);
-  margin-bottom: 1em;
-  
- 
-  font-weight: bold;
-  vertical-align: middle;
-  
-  
-}
+
 
 :root {
   --ff-primary: "Source Sans Pro", sans-serif;
@@ -120,9 +93,9 @@ section {
 }
 
 .nav__list {
-  list-style: none;
+  list-style: circle;
   display: flex;
-  height: 50%;
+  height: 100%;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
@@ -225,6 +198,11 @@ img {
 *{
     margin: 0px;
     padding: 0px;
+}
+
+.typewrite
+{
+  color: #000000;
 }
 .section__title--services {
   color: var(--clr-accent);
@@ -480,6 +458,9 @@ header {
 
 /*About Me */
 
+@media (min-width: 600px) {
+  
+
 .section__subtitle--about
 {
   grid-column: 1 / -1;
@@ -493,8 +474,6 @@ header {
 .about-me__body {
  
   font-size: 19px;
-  
-
   max-width: 1000px;
   margin: 1px;
   max-height: fit-content;
@@ -507,7 +486,41 @@ header {
     
   
 }
+.about-me__img {
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  padding: 0.99em 1em;
+  width: 380px;
+  
+  float: right;
+  margin-right: 89px;
+  box-shadow: var(--bs);
+  grid-area: img;
+    position: relative;
+    z-index: 2;
+  
+  
+}
 
+  
+
+.titlesmh
+{
+  
+  padding: 0.81em 1em;
+  font-family: var(--ff-secondary);
+  margin-bottom: 1em;
+  
+  grid-area: title;
+  font-weight: bold;
+  vertical-align: middle;
+  
+  
+}
+}
 .my-work {
   background-color: var(--clr-dark);
   color: var(--clr-light);
@@ -647,6 +660,7 @@ header {
 
 .social-list__item {
   margin: 0 1em;
+  
 }
 
 @keyframes animate {
@@ -664,4 +678,4 @@ header {
     }
 
 }
-* { color:rgb(0, 0, 0); text-decoration: none;}
+
