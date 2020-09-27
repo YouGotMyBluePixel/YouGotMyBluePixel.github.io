@@ -1,6 +1,11 @@
 
 /*General*/
 
+li{
+  color: #fff;
+  
+}
+
 html {
   scroll-behavior: smooth;
 }
