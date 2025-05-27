@@ -1,10 +1,9 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
@@ -12,10 +11,11 @@
 
     <script src="https://kit.fontawesome.com/f16558b854.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&family=Source+Sans+Pro:wght@400;900&display=swap" rel="stylesheet" />
-    <link rel="shortcut icon" type="img/x-icon" href="img/blue_pixel.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/blue_pixel.jpg" />
     <title>Xavere Ricketts • Portfolio</title>
   </head>
   <body>
+    <!-- Navigation -->
     <button class="nav-toggle" aria-label="toggle navigation">
       <span class="hamburger"></span>
     </button>
@@ -23,85 +23,97 @@
       <ul class="nav__list">
         <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
         <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
-        <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
-        <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
       </ul>
     </nav>
 
+    <!-- Hero Section -->
     <div class="context">
       <section class="intro" id="home">
         <h1 class="section__title section__title--intro">
-          Hi, I’m <strong>Xavere Ricketts</strong>
+          Welcome! I'm <strong>Xavere Ricketts</strong>
         </h1>
         <p class="section__subtitle section__subtitle--intro">
-          <a href="" class="typewrite" data-period="2000" data-type='["Full_Stack_Engineer","React_Developer","Next.js_Enthusiast","Generative_AI_Integrator","Digicel_Tech_Leader"]'></a>
+          <a href="" class="typewrite" data-period="2000" data-type='["Innovator","Problem Solver","Tech Leader","UX Advocate","Digital Strategist"]'>
+            <span class="wrap"></span>
+          </a>
         </p>
-        <img src="img/Animated_blue_pixel.gif" alt="Xavere" class="intro__img" />
+        <img src="img/Animated_blue_pixel.gif" alt="Xavere Avatar" class="intro__img" />
       </section>
     </div>
 
     <div class="area"></div>
 
+    <!-- Services Section -->
     <section class="my-services" id="services">
-      <h2 class="section__title section__title--services">What I Do</h2>
+      <h2 class="section__title section__title--services">My Expertise</h2>
       <div class="services">
         <div class="service">
           <h3>Web & UI Design</h3>
-          <p>I design and animate responsive websites and landing pages using HTML5, CSS3, Bootstrap, Tailwind CSS, and JavaScript to deliver engaging user experiences.</p>
+          <p>Delivering sleek, responsive interfaces and animations that captivate audiences and boost engagement.</p>
         </div>
         <div class="service">
           <h3>Front-End Development</h3>
-          <p>Building performant web apps with React, Next.js, TypeScript, and component-driven architecture. Optimized for scalability and maintainability.</p>
+          <p>Building robust React, Next.js, and TypeScript applications with a focus on performance and scalability.</p>
         </div>
         <div class="service">
-          <h3>Back-End & API</h3>
-          <p>Developing robust server-side solutions using Node.js, Express, Java/Spring Boot, and SQL (MySQL, SQL Server) for secure data management and API design.</p>
+          <h3>Back-End Engineering</h3>
+          <p>Architecting secure APIs and databases with Node.js, Express, Java/Spring Boot, and SQL for seamless data flow.</p>
         </div>
       </div>
     </section>
 
-    <!-- About Me -->
+    <!-- About Section -->
     <section class="about-me" id="about">
-      <h2 class="titlesmh"><strong>My Story</strong></h2>
-      <p class="section__subtitle section__subtitle--about">From IT foundations to full-stack engineering</p>
-      <img src="img/Animated_City.gif" alt="Office City" class="about-me__img" />
+      <h2 class="titlesmh"><strong>About Me</strong></h2>
+      <p class="section__subtitle section__subtitle--about">Crafting scalable solutions and leading teams to success.</p>
+      <img src="img/Animated_City.gif" alt="Tech City" class="about-me__img" />
       <div class="about-me__body">
-        <p2><em>I began coding at Mannings School, learning HTML, CSS, and JavaScript. I then completed an Associate of Science in Management Information Systems, working with ASP.NET, C#, and SQL Server, which deepened my understanding of enterprise IT.</em></p2>
-        <p2><em>Currently pursuing a BS in Computer Science at University of Technology, Jamaica, I contribute to Utech Sapna projects and lead full-stack work at Digicel—integrating React and Generative AI into high-scale applications.</em></p2>
+        <p2><em>I’m a seasoned full-stack engineer with a passion for transforming complex challenges into elegant digital products. I’ve led projects at Digicel, integrated Generative AI solutions, and built enterprise-grade web applications for millions of users.</em></p2>
+        <p2><em>When I’m not coding, I mentor junior developers, contribute to open-source, and explore the latest tech trends to stay ahead of the curve.</em></p2>
       </div>
       <ul class="circles">
         <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
       </ul>
     </section>
 
-    <!-- My Work -->
+    <!-- Projects Section -->
     <section class="my-work" id="work">
-      <h2 class="section__title section__title--work">My Work</h2>
+      <h2 class="section__title section__title--work">Featured Projects</h2>
       <p class="section__subtitle section__subtitle--work">
-        Explore some of my key projects or visit 
-        <a href="https://gitlab.com/YouGotMyBluePixel" target="_blank" class="section__link--work"><i class="fab fa-gitlab"></i> GitLab</a>
-         for more.
+        Check out some of my standout work or explore more on 
+        <a href="https://gitlab.com/YouGotMyBluePixel" target="_blank" class="section__link--work"><i class="fab fa-gitlab"></i> GitLab</a>.
       </p>
       <div class="portfolio">
         <ul class="projects">
-          <li class="project_item"><a href="https://mydigicel.digicelgroup.com" class="nav__link" title="Next.js, TypeScript, React">My Digicel Web</a></li>
-          <li class="project_item"><a href="https://yougotmybluepixel.github.io/Netflix-Landing-Page/" class="nav__link" title="HTML, CSS, JavaScript">Netflix Landing Page</a></li>
-          <li class="project_item"><a href="https://jamaicanhistoricalsociety.org" class="nav__link" title="PHP, Laravel, Bootstrap">Jamaica Historical Society</a></li>
-          <li class="project_item"><a href="https://kingstontours.herokuapp.com" class="nav__link" title="Vue.js, Tailwind CSS">Experience Kingston</a></li>
+          <li class="project_item"><a href="https://mydigicel.digicelgroup.com" class="nav__link" title="Next.js, TypeScript">My Digicel Portal</a></li>
+          <li class="project_item"><a href="https://yougotmybluepixel.github.io/Netflix-Landing-Page/" class="nav__link" title="HTML, CSS, JS">Netflix Clone Landing</a></li>
+          <li class="project_item"><a href="https://jamaicanhistoricalsociety.org" class="nav__link" title="PHP, Laravel">Historical Society Site</a></li>
+          <li class="project_item"><a href="https://kingstontours.herokuapp.com" class="nav__link" title="Vue.js, Tailwind">Kingston Tours</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container text-center py-5">
+        <h2>Get In Touch</h2>
+        <p>Email: <a href="mailto:xaverericketts@gmail.com">xaverericketts@gmail.com</a> | Kingston, Jamaica</p>
+        <ul class="social-list list-inline">
+          <li class="list-inline-item"><a href="https://github.com/YouGotMyBluePixel" target="_blank"><i class="fab fa-github fa-2x"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.linkedin.com/in/xavere-ricketts-0a2523158/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
         </ul>
       </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
-      <a href="mailto:xaverericketts@gmail.com" class="footer__link">xaverericketts@gmail.com</a>
-      <ul class="social-list">
-        <li class="social-list__item"><a href="https://github.com/YouGotMyBluePixel" target="_blank"><i class="fab fa-github"></i></a></li>
-        <li class="social-list__item"><a href="https://www.linkedin.com/in/xavere-ricketts-0a2523158/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-      </ul>
+    <footer class="footer text-center py-3">
+      <small>&copy; 2025 Xavere Ricketts. All Rights Reserved.</small>
     </footer>
 
-    <!-- Optional JavaScript -->
+    <!-- Scripts -->
     <script src="js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
